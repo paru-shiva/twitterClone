@@ -1,0 +1,59 @@
+GET https://shivakumarujhspnjscadijbi.drops.nxtwave.tech
+
+POST https://shivakumarujhspnjscadijbi.drops.nxtwave.tech/register/
+Content-Type: application/json
+
+{
+  "username": "shiva",
+  "password": "shiva_567",
+  "name": "Adam Richard",
+  "gender": "male"
+}
+
+POST https://shivakumarujhspnjscadijbi.drops.nxtwave.tech/login/
+Content-Type: application/json
+
+{
+  "username":"shiva",
+  "password":"shiva_567"  
+}
+
+GET https://shivakumarujhspnjscadijbi.drops.nxtwave.tech/user/tweets/feed/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvZUJpZGVuIiwiaWF0IjoxNzA0ODk1MjcyfQ.hLIty53jZqS4AHwCvu36c2rD9MrW22GV_pBMhCL31dM
+Content-Type: application/json
+
+GET https://shivakumarujhspnjscadijbi.drops.nxtwave.tech/user/following/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvZUJpZGVuIiwiaWF0IjoxNzA0ODk1MjcyfQ.hLIty53jZqS4AHwCvu36c2rD9MrW22GV_pBMhCL31dM
+Content-Type: application/json
+
+GET https://shivakumarujhspnjscadijbi.drops.nxtwave.tech/user/followers/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvZUJpZGVuIiwiaWF0IjoxNzA0ODk1MjcyfQ.hLIty53jZqS4AHwCvu36c2rD9MrW22GV_pBMhCL31dM
+Content-Type: application/json
+
+GET https://shivakumarujhspnjscadijbi.drops.nxtwave.tech/tweets/8/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvZUJpZGVuIiwiaWF0IjoxNzA0ODk1MjcyfQ.hLIty53jZqS4AHwCvu36c2rD9MrW22GV_pBMhCL31dM
+Content-Type: application/json
+
+GET https://shivakumarujhspnjscadijbi.drops.nxtwave.tech/tweets/8/likes/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvZUJpZGVuIiwiaWF0IjoxNzA0ODk1MjcyfQ.hLIty53jZqS4AHwCvu36c2rD9MrW22GV_pBMhCL31dM
+Content-Type: application/json
+
+GET https://shivakumarujhspnjscadijbi.drops.nxtwave.tech/tweets/8/replies/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvZUJpZGVuIiwiaWF0IjoxNzA0ODk1MjcyfQ.hLIty53jZqS4AHwCvu36c2rD9MrW22GV_pBMhCL31dM
+Content-Type: application/json
+
+GET https://shivakumarujhspnjscadijbi.drops.nxtwave.tech/user/tweets/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvZUJpZGVuIiwiaWF0IjoxNzA0ODk1MjcyfQ.hLIty53jZqS4AHwCvu36c2rD9MrW22GV_pBMhCL31dM
+Content-Type: application/json
+
+POST https://shivakumarujhspnjscadijbi.drops.nxtwave.tech/user/tweets/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvZUJpZGVuIiwiaWF0IjoxNzA0ODk1MjcyfQ.hLIty53jZqS4AHwCvu36c2rD9MrW22GV_pBMhCL31dM
+Content-Type: application/json
+
+{
+   "tweet": "The Mornings..."
+}
+
+DELETE https://shivakumarujhspnjscadijbi.drops.nxtwave.tech/tweets/12/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvZUJpZGVuIiwiaWF0IjoxNzA0ODk1MjcyfQ.hLIty53jZqS4AHwCvu36c2rD9MrW22GV_pBMhCL31dM
+
